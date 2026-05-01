@@ -4,7 +4,7 @@ Longley Pham
 Nigel Caldon
 Year Up United - Data Academy
 27 April 2026
-Capstone 1
+Capstone 1 - Bonus Queries
 */
 
 -- SELECT, Filtering & Sorting
@@ -12,6 +12,11 @@ Capstone 1
 1. Create a list of all transactions that took place on January 15, 2024, sorted by sale amount from
 highest to lowest.
 */
+SELECT *
+FROM online_sales;
+
+SELECT *
+FROM store_sales;
 
 /*
 2. Which transactions had a sale amount greater than $500? Display the transaction date, store ID,
